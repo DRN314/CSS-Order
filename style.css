@@ -1,32 +1,71 @@
-*{
+* {
     padding: 0%;
     margin: 0px;
 }
-body{
-    background-image: url("./images/#hero-cover.3\ \(1\).png");
+
+.page_one {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(./images/hero-cover.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
 
 }
-nav{
+
+nav {
+    margin: auto;
+    width: 100%;
+    height: 75px;
+
+
+}
+
+.Toptext {
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
-    margin-left: 20px;
-    font-size: 26px;
-    gap: 20px;
-
-
-
+    justify-content: flex-start;
+    height: 75vh;
+    width: 200px;
 }
-.Toptext{
+
+h1{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight:bold ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-left: 25px;
+}
+ul{
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items: baseline;
-    font-size: 20px;
+    justify-content: center;
+    color: azure;
+    float: left;
 }
-button{
-    padding:20px;
+ul >li{
+    list-style: none;
+    margin: left 60px; ;
+    font-size: 10px;
+}
+ul>li>a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+button {
+    padding: 20px;
     color: blueviolet;
     display: inline-block;
 
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    box-shadow: navy;
+    padding: 20px;
+    background-color: blueviolet;
+    width: 50vw;
+    height: 100px;
 }
