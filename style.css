@@ -287,7 +287,7 @@ p2 {
     grid-template-columns: 250px 250px 250px;
     grid-template-areas: cardone cardtwo cardthree;
     border-color: rgb(146, 11, 11);
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     
 }
 
@@ -300,7 +300,10 @@ p2 {
     background-color: white;
     border-radius: 2px;
     border:1px solid rgba(0, 0, 0, 0.5) ;
-
+}
+div.card-1 img{
+    width: 100%;
+    height: auto;
 }
 .card-2 {
     grid-template-areas: cardthree;
@@ -311,7 +314,15 @@ p2 {
     background-color: white;
     border-radius: 2px;
     border:1px solid rgba(0, 0, 0, 0.5) ;
-
+    float: left;
+}
+div.card-2 img{
+    width: 100%;
+    height: auto;
+}
+div.desc{
+    text-align: center;
+    padding: 15px;
 }
 .card-3 {
     grid-template-areas: cardthree;
@@ -322,5 +333,14 @@ p2 {
     background-color: white;
     border-radius: 2px;
     border:1px solid rgba(0, 0, 0, 0.5) ;
+    float: left;
 
+ } 
+div.card-3 img{
+    width: 100%;
+    height: auto;
+} 
+div.desc{
+    text-align: center;
+    padding: 15px;
 }
